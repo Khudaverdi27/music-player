@@ -1,0 +1,132 @@
+:root {
+    --main-color: #F0F1F4;
+    --color-orange: #F85C13;
+    --color-secondary: #E1E2E5;
+    --color-white: #ffffff;
+    --color-dark-gray: #323232;
+    --color-gray: #878787;
+}
+
+.color-orange {
+    color: var(--color-orange);
+}
+
+.fw-bold {
+    font-weight: 600;
+}
+
+.crusor-p {
+    cursor: pointer;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.m-top-7 {
+    margin-top: 7px;
+}
+
+.d-flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block;
+}
+
+.container {
+    border: 1px solid var(--color-secondary);
+    width: 350px;
+    padding: 7px;
+}
+
+.musicContainer {
+    background-color: var(--main-color);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.volume,
+.musicLine {
+    position: relative;
+    background-color: var(--color-secondary);
+    height: 7px;
+    border-radius: 10px;
+}
+
+.volume {
+    width: 100px;
+    margin-left: 3px;
+}
+
+.volumeLive {
+    background-color: var(--color-orange);
+    position: absolute;
+    top: 0;
+    left: -3px;
+}
+
+.musicLine {
+    width: 400px;
+}
+
+.musicLive {
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: var(--color-dark-gray);
+    width: 330px;
+}
+
+.controlBtn {
+    width: 30px;
+    height: 30px;
+    background-color: var(--color-orange);
+    color: var(--color-white);
+    border-radius: 50%;
+}
+
+.play {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
+
+.musicList {
+    padding: 10px;
+    background-color: var(--color-dark-gray);
+    color: var(--color-white);
+    border-radius: 7px;
+}
+
+.songBox {
+    border-bottom: 1px solid var(--color-gray);
+}

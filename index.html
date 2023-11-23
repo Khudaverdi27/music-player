@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="d-flex-container">
+        <div class="container">
+            <div class="musicContainer">
+                <div class="musicImg d-flex-container">
+                    <img id="musicPhoto" src="./image/makeba.jpg" alt="img">
+                </div>
+                <div class="musicInfo d-flex justify-between m-top-7">
+                    <div class="musicTitle">
+                        <h6 id="musicName" class="fs-18 fw-bold">Meyhaneler Sen</h6>
+                        <p id="author" class="m-top-7">Gece Yolculari</p>
+                    </div>
+                    <div class="volumeBox d-flex align-center ">
+                        <audio id="audio" src=""></audio>
+                        <i class="fa-solid fa-volume-high crusor-p"></i>
+                        <div class="volume crusor-p">
+                            <div class="volume volumeLive d-none "></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="musicTimer d-flex-container">
+                    <div class="musicLine m-top-7 crusor-p">
+                        <div class="musicLine musicLive d-none "></div>
+                    </div>
+                </div>
+                <div class="musicPeriod d-flex justify-between m-top-7">
+                    <span id="timeStart">00:00</span>
+                    <span id="timeEnd">00:00</span>
+                </div>
+                <div class="controls d-flex justify-center">
+                    <button id="prevBtn" class="prev crusor-p d-flex-container controlBtn m-top-7"><i
+                            class="fa-solid fa-backward-step"></i>
+                    </button>
+                    <button id="playBtn" class="play crusor-p d-flex-container controlBtn"><i
+                            class="fa-solid fa-play"></i></button>
+                    <button id="nextBtn" class="next crusor-p d-flex-container controlBtn m-top-7"><i
+                            class="fa-solid fa-forward-step"></i></button>
+                </div>
+                <div id="musicList" class="musicList m-top-7 crusor-p">
+                    <div class="songBox d-flex justify-between m-top-7">
+                        <p id="song">Meyhaneler Sen-Gece Yolculari</p>
+                        <span id="time">00:00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./js/music.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/ui.js"></script>
+</body>
+
+</html>
