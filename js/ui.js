@@ -9,7 +9,11 @@ const UI = {
     prevBtn: document.getElementById('prevBtn'),
     playBtn: document.getElementById('playBtn'),
     nextBtn: document.getElementById('nextBtn'),
-    song: document.getElementById('song'),
+    volume: document.getElementById('volume'),
+    volumeLive: document.getElementById('volumeLive'),
+    musicLive: document.getElementById('musicLive'),
+    musicLine: document.getElementById('musicLine'),
+    volumeControl: document.getElementById('volumeControl'),
     time: document.getElementById('time'),
 }
 
