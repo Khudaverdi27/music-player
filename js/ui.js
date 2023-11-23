@@ -4,6 +4,7 @@ const UI = {
     musicName: document.getElementById('musicName'),
     author: document.getElementById('author'),
     audio: document.getElementById('audio'),
+    audios: document.querySelectorAll('.audios'),
     timeStart: document.getElementById('timeStart'),
     timeEnd: document.getElementById('timeEnd'),
     prevBtn: document.getElementById('prevBtn'),

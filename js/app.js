@@ -68,7 +68,7 @@ class MusicPlayer {
         const list = this.musicList.map((music, musicIndex) => {
             return ` <div data-id=${musicIndex} class="songBox d-flex justify-between m-top-7 ${this.index == musicIndex ? 'color-orange' : 'color-white'}">
             <p id="song">${music.author}-${music.name}</p>
-            <span class="time">00:00</span>
+         
             </div>`
         }).join('')
         this.ui.musicList.innerHTML = list
