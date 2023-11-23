@@ -8,7 +8,7 @@ const musics = [
     {
         author: 'Katy Perry',
         name: 'Dark Horse',
-        mp3: './music/kate-perry.mp3',
+        mp3: './music/katyperry.mp3',
         img: './image/katyperry.jpg',
     },
     {

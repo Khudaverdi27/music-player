@@ -15,3 +15,4 @@ const UI = {
 
 const player = new MusicPlayer(musics, UI);
 player.displayMusic()
+player.createPlayList() 

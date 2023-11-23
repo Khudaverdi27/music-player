@@ -11,6 +11,10 @@
     color: var(--color-orange);
 }
 
+.color-white {
+    color: var(--color-white);
+}
+
 .fw-bold {
     font-weight: 600;
 }
