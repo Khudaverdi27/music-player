@@ -17,8 +17,8 @@ class MusicPlayer {
     }
 
     calc(seconds) {
-        const minute = Math.floor(seconds / 60)
-        const second = Math.floor(seconds % 60)
+        const minute = Math.floor(seconds / 60) || 0
+        const second = Math.floor(seconds % 60) || 0
         return `${minute}:${second < 10 ? "0" + second : second}`
     }
     next() {
