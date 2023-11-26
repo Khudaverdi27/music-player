@@ -1,5 +1,5 @@
 <div align="center">
-  <img height="150" src="https://github.com/Khudaverdi27/music-player/blob/main/image/preview.png?raw=true"  />
+  <img src="https://github.com/Khudaverdi27/music-player/blob/main/image/preview.png?raw=true"  />
 </div>
 
 ###
